@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-2 my-20  text-orange-500 bg-gray-700'>
+      <div className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30 text-orange-400'>
         <div className='flex shadow rounded-lg overflow-hidden mb-4'> <input type="text" value={password} className='outline-none w-full py-1 px-3' placeholder='password' readOnly ref={passwordRef} />
 
           <button onClick={copyPasswordClipboard} className='outline-none bg-blue-700 text-white px-3 py-1 shrink-0'>copy</button></div>
